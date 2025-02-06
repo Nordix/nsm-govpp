@@ -11,6 +11,7 @@ import (
 // RPCService defines RPC service http_static.
 type RPCService interface {
 	HTTPStaticEnable(ctx context.Context, in *HTTPStaticEnable) (*HTTPStaticEnableReply, error)
+	HTTPStaticEnableV2(ctx context.Context, in *HTTPStaticEnableV2) (*HTTPStaticEnableV2Reply, error)
 }
 
 type serviceClient struct {
@@ -23,6 +24,15 @@ func NewServiceClient(conn api.Connection) RPCService {
 
 func (c *serviceClient) HTTPStaticEnable(ctx context.Context, in *HTTPStaticEnable) (*HTTPStaticEnableReply, error) {
 	out := new(HTTPStaticEnableReply)
+	err := c.conn.Invoke(ctx, in, out)
+	if err != nil {
+		return nil, err
+	}
+	return out, api.RetvalToVPPApiError(out.Retval)
+}
+
+func (c *serviceClient) HTTPStaticEnableV2(ctx context.Context, in *HTTPStaticEnableV2) (*HTTPStaticEnableV2Reply, error) {
+	out := new(HTTPStaticEnableV2Reply)
 	err := c.conn.Invoke(ctx, in, out)
 	if err != nil {
 		return nil, err

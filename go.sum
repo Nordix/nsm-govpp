@@ -1,9 +1,9 @@
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/lunixbochs/struc v0.0.0-20200521075829-a4cb8d33dbbe h1:ewr1srjRCmcQogPQ/NCx6XCk6LGVmsVCc9Y3vvPZj+Y=
 github.com/lunixbochs/struc v0.0.0-20200521075829-a4cb8d33dbbe/go.mod h1:vy1vK6wD6j7xX6O6hXe621WabdtNkou2h7uRtTfRMyg=
-github.com/onsi/gomega v1.30.0 h1:hvMK7xYz4D3HapigLTeGdId/NcfQx1VHMJc60ew99+8=
-go.fd.io/govpp v0.10.0-alpha.0.20240110141843-761adec77524 h1:Dja0i7Ln/aUAc10VN4Pp3SibYTfNKS1CPkM5TSGL5jk=
-go.fd.io/govpp v0.10.0-alpha.0.20240110141843-761adec77524/go.mod h1:9QoqjEbvfuuXNfjHS0A7YS+7QQVVaQ9cMioOWpSM4rY=
-golang.org/x/net v0.17.0 h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM=
-golang.org/x/text v0.14.0 h1:ScX5w1eTa3QqT8oi6+ziP7dTV1S2+ALU0bI+0zXKWiQ=
+github.com/onsi/gomega v1.33.1 h1:dsYjIxxSR755MDmKVsaFQTE22ChNBcuuTWgkUDSubOk=
+go.fd.io/govpp v0.11.0 h1:foIAJ7dF8QIi6TBizWdBLjaQtMnVcO/dQH0orY1/s/Q=
+go.fd.io/govpp v0.11.0/go.mod h1:QAgM1RCcEj/RSUIr/BjRVa1Dy/bjEMUYYUm5J/uTPKo=
+golang.org/x/net v0.24.0 h1:1PcaxkF854Fu3+lvBIx5SYn9wRlBzzcnHZSiaFFAb0w=
+golang.org/x/text v0.18.0 h1:XvMDiNzPAl0jr17s6W9lcaIhGUfUORdGCNsuLmPG224=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
